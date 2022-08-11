@@ -1,0 +1,6 @@
+{
+    "title": "{{cookiecutter.project_name}}",
+    "description": "{{cookiecutter.project_name}} Screen Module",
+    "root": "/screens/{{cookiecutter.project_slug}}"
+}
+  
