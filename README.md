@@ -23,3 +23,13 @@ full_name [Shahraiz Ali]:
 email [shahraiz.ali@crowdbotics.com]: 
 camel_case_name [ArPictureEditing]: 
 ```
+
+## Bulk Generation
+
+    Edit the bulk-generation.sh file add screen names in array
+
+```
+then run 
+chmod +x ./bulk-generation.sh
+./bulk-generation.sh
+```
