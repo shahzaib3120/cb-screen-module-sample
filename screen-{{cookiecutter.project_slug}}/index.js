@@ -17,16 +17,10 @@ const {{cookiecutter.camel_case_name}} = () => {
 };
 
 const styles = StyleSheet.create({
-  container: {
+  heading: {
     margin: 20,
     flex: 1,
     justifyContent: "space-around"
-  },
-  headingTxt: {
-    fontSize: 24,
-    fontWeight: "bold",
-    padding: 2,
-    marginVertical: 12
   }
 });
 
