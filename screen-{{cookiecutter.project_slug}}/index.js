@@ -1,26 +1,26 @@
-import React, { useRef, useContext, useEffect, useState } from "react";
+import React from "react";
 import {
   Text,
   View,
-  TouchableOpacity,
-  FlatList,
-  ImageBackground
+  StyleSheet
 } from "react-native";
 
 const {{cookiecutter.camel_case_name}} = () => {
 
   return (
-    <View style={styles.heading}>
-      <Text>{{cookiecutter.project_name}}</Text>
+    <View style={styles.container}>
+      <Text style={styles.heading}>{{cookiecutter.project_name}}</Text>
     </View>
   );
 };
 
 const styles = StyleSheet.create({
-  heading: {
-    margin: 20,
+  container:{
     flex: 1,
-    justifyContent: "space-around"
+    backgroundColor: "#fff",
+  },
+  heading: {
+    fontSize: 20,
   }
 });
 
